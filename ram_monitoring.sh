@@ -7,6 +7,6 @@ if [[ $free_space -lt $threshold ]]
 then
 	echo "Warning, RAM is running low [$free_space] MB!"
 else
-	echo "RAM space is sufficient"
+	echo "RAM space is sufficient $free_space MB"
 fi
 
